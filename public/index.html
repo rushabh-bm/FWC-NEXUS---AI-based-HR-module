@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FWC Nexus — AI Talent Intelligence Platform</title>
+    <meta name="description" content="FWC Nexus: Next-generation AI-powered HR recruitment platform with real-time candidate screening, semantic matching, and automated onboarding.">
+
+    <!-- Google Fonts: Inter + JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- ApexCharts (beautiful charts) -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <!-- GSAP (animations) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!-- Typed.js (typing effects) -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css?v=4.1">
+</head>
+<body>
+
+    <!-- Particle Canvas Background (login page) -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Application Shell -->
+    <div id="app-shell">
+
+        <!-- Navigation Bar -->
+        <header class="app-navbar" id="app-navbar">
+            <div class="navbar-inner">
+                <div class="brand" id="brand-logo-btn">
+                    <div class="brand-orb">
+                        <span>N</span>
+                        <div class="brand-orb-ring"></div>
+                    </div>
+                    <div class="brand-text">
+                        FWC <span class="brand-nexus">NEXUS</span>
+                        <span class="brand-badge">AI</span>
+                    </div>
+                </div>
+                <nav class="nav-links" id="nav-links">
+                    <!-- Injected by router -->
+                </nav>
+                <div class="nav-actions" id="nav-actions-container">
+                    <!-- Injected by router -->
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Viewport -->
+        <main id="app-view-port">
+            <!-- Injected by js/app.js -->
+        </main>
+
+    </div>
+
+    <!-- Global Toast Notification -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Global Modal -->
+    <div class="modal-overlay" id="global-modal">
+        <div class="modal-content" id="modal-content">
+            <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">&times;</button>
+            <div id="modal-inner-content"></div>
+        </div>
+    </div>
+
+    <!-- AI Copilot Floating Button -->
+    <button class="copilot-fab" id="copilot-fab" title="Open AI Copilot">
+        <i data-lucide="bot"></i>
+        <span class="fab-pulse"></span>
+    </button>
+
+    <!-- AI Copilot Chat Panel -->
+    <div class="copilot-panel" id="copilot-panel">
+        <div class="copilot-header">
+            <div class="copilot-title">
+                <div class="copilot-avatar"><i data-lucide="bot"></i></div>
+                <div>
+                    <div class="copilot-name">Nexus AI Co-Pilot</div>
+                    <div class="copilot-status" id="copilot-status">Connecting...</div>
+                </div>
+            </div>
+            <button class="copilot-close" id="copilot-close"><i data-lucide="x"></i></button>
+        </div>
+        <div class="copilot-messages" id="copilot-messages"></div>
+        <div class="copilot-suggestions" id="copilot-suggestions"></div>
+        <div class="copilot-input-row">
+            <input type="text" id="copilot-input" class="copilot-input" placeholder="Ask me anything about your candidates…" autocomplete="off">
+            <button class="copilot-send" id="copilot-send"><i data-lucide="send"></i></button>
+        </div>
+    </div>
+
+    <!-- JavaScript Modules (order matters) -->
+    <script src="js/api.js?v=4.1"></script>
+    <script src="js/components.js?v=4.1"></script>
+    <script src="js/app.js?v=4.1"></script>
+</body>
+</html>

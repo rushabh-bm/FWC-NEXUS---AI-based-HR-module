@@ -1,0 +1,25 @@
+# ─── Core (required) ───────────────────────────────────────────────
+fastapi==0.110.0
+uvicorn[standard]==0.28.0
+python-multipart==0.0.9
+pypdf==4.1.0
+sqlalchemy>=2.0.28
+
+# ─── AI / NLP Addons (optional — graceful fallback if not installed) ──
+# Install these to unlock:
+#   spaCy        → real NER name/email extraction from resumes
+#   sentence-transformers → semantic JD ↔ resume cosine similarity scoring
+#   transformers  → HuggingFace sentiment analysis on interview answers
+#
+# Quick install (CPU-only, recommended for laptops):
+#   pip install spacy sentence-transformers transformers
+#   python -m spacy download en_core_web_sm
+#
+spacy>=3.7.0
+sentence-transformers>=2.6.0
+transformers>=4.39.0
+torch>=2.0.0
+# ─── Database and Auth ───────────────────────────────────────
+psycopg2-binary
+python-jose[cryptography]
+alembic

@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+
+# Environments & sensitive data
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Uploads / Static media
+public/uploads/*
+!public/uploads/.gitkeep

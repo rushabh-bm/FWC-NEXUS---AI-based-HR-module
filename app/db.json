@@ -1,0 +1,294 @@
+{
+    "users": [
+        {
+            "username": "recruiter@fwc.com",
+            "password": "password123",
+            "role": "recruiter",
+            "name": "Sarah Jenkins (Senior Talent Partner)"
+        },
+        {
+            "username": "candidate@fwc.com",
+            "password": "password123",
+            "role": "candidate",
+            "name": "Aryan Sharma"
+        },
+        {
+            "username": "perushabhbmaiml2026@gmail.com",
+            "password": "password123",
+            "role": "candidate",
+            "name": "RUSHABH BM"
+        }
+    ],
+    "candidates": [
+        {
+            "id": "c1",
+            "name": "Aryan Sharma",
+            "email": "candidate@fwc.com",
+            "score": 92,
+            "skills_matched": [
+                "Python",
+                "JavaScript",
+                "Machine Learning",
+                "AI",
+                "React",
+                "Node.js",
+                "Git",
+                "HTML",
+                "CSS"
+            ],
+            "skills_missing": [
+                "Docker",
+                "Kubernetes",
+                "PyTorch"
+            ],
+            "experience_years": 2,
+            "resume_name": "Aryan_Sharma_CV.pdf",
+            "status": "Hired",
+            "interview_status": "Completed",
+            "interview_score": 63,
+            "interview_eval": {
+                "accuracy": 66,
+                "clarity": 59,
+                "sentiment": "Needs Development",
+                "summary": "Basic understanding. Lacks technical depth in cloud scaling, and replies were brief. Recommend structured technical grounding during training.",
+                "detailed_scores": [
+                    98,
+                    67,
+                    45,
+                    45
+                ]
+            },
+            "onboarding_progress": 0,
+            "onboarding_tasks": [
+                {
+                    "id": "t1",
+                    "title": "Accept Offer Letter & Sign Agreement",
+                    "completed": false
+                },
+                {
+                    "id": "t2",
+                    "title": "Upload Academic Transcripts & ID Proofs",
+                    "completed": false
+                },
+                {
+                    "id": "t3",
+                    "title": "Watch FWC Global Introduction Video",
+                    "completed": false
+                },
+                {
+                    "id": "t4",
+                    "title": "Access HTD Week 1-4 React/Node course",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "c2",
+            "name": "Priya Patel",
+            "email": "priya.patel@gmail.com",
+            "score": 78,
+            "skills_matched": [
+                "Python",
+                "Machine Learning",
+                "Deep Learning",
+                "HTML",
+                "CSS",
+                "SQL",
+                "Flask"
+            ],
+            "skills_missing": [
+                "JavaScript",
+                "React",
+                "Docker",
+                "Node.js"
+            ],
+            "experience_years": 1,
+            "resume_name": "Priya_Patel_Resume.pdf",
+            "status": "Interviewed",
+            "interview_status": "Completed",
+            "interview_score": 74,
+            "interview_eval": {
+                "accuracy": 70,
+                "clarity": 78,
+                "sentiment": "Moderate",
+                "summary": "Strong core Python skills but limited exposure to modern single-page-app frontends. Communicated well.",
+                "detailed_scores": [
+                    70,
+                    75,
+                    75,
+                    76
+                ]
+            },
+            "onboarding_progress": 0,
+            "onboarding_tasks": [
+                {
+                    "id": "t1",
+                    "title": "Accept Offer Letter & Sign Agreement",
+                    "completed": false
+                },
+                {
+                    "id": "t2",
+                    "title": "Upload Academic Transcripts & ID Proofs",
+                    "completed": false
+                },
+                {
+                    "id": "t3",
+                    "title": "Watch FWC Global Introduction Video",
+                    "completed": false
+                },
+                {
+                    "id": "t4",
+                    "title": "Access HTD Week 1-4 React/Node course",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "c3",
+            "name": "Rohan Das",
+            "email": "rohan.das@yahoo.com",
+            "score": 52,
+            "skills_matched": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "SQL"
+            ],
+            "skills_missing": [
+                "Python",
+                "Machine Learning",
+                "AI",
+                "Docker",
+                "React",
+                "Node.js"
+            ],
+            "experience_years": 0,
+            "resume_name": "Rohan_Das_CV.pdf",
+            "status": "Shortlisted",
+            "interview_status": "Pending",
+            "interview_score": 0,
+            "interview_eval": null,
+            "onboarding_progress": 0,
+            "onboarding_tasks": [
+                {
+                    "id": "t1",
+                    "title": "Accept Offer Letter & Sign Agreement",
+                    "completed": false
+                },
+                {
+                    "id": "t2",
+                    "title": "Upload Academic Transcripts & ID Proofs",
+                    "completed": false
+                },
+                {
+                    "id": "t3",
+                    "title": "Watch FWC Global Introduction Video",
+                    "completed": false
+                },
+                {
+                    "id": "t4",
+                    "title": "Access HTD Week 1-4 React/Node course",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "name": "RUSHABH BM",
+            "email": "perushabhbmaiml2026@gmail.com",
+            "score": 50,
+            "skills_matched": [
+                "AI",
+                "API",
+                "AWS",
+                "Cloud",
+                "Deep Learning",
+                "GIT",
+                "Github",
+                "ML",
+                "Machine Learning",
+                "NLP",
+                "Python",
+                "SQL"
+            ],
+            "skills_missing": [
+                "Artificial Intelligence",
+                "Azure",
+                "CSS",
+                "Django",
+                "Docker",
+                "Express",
+                "Fastapi",
+                "Flask",
+                "GCP",
+                "Html",
+                "JS",
+                "Javascript",
+                "Kubernetes",
+                "Neural Networks",
+                "Node",
+                "Node.Js",
+                "Pytorch",
+                "React",
+                "Rest",
+                "Tensorflow"
+            ],
+            "experience_years": 3,
+            "resume_name": "Rushabh_BM _Resume.pdf",
+            "status": "Applied",
+            "interview_status": "Pending",
+            "interview_score": 0,
+            "interview_eval": null,
+            "onboarding_progress": 0,
+            "onboarding_tasks": [
+                {
+                    "id": "t1",
+                    "title": "Accept Offer Letter & Sign Agreement",
+                    "completed": false
+                },
+                {
+                    "id": "t2",
+                    "title": "Upload Academic Transcripts & ID Proofs",
+                    "completed": false
+                },
+                {
+                    "id": "t3",
+                    "title": "Watch FWC Global Introduction Video",
+                    "completed": false
+                },
+                {
+                    "id": "t4",
+                    "title": "Access HTD Week 1-4 React/Node course",
+                    "completed": false
+                }
+            ],
+            "id": "c4"
+        }
+    ],
+    "interviews": [
+        {
+            "candidate_id": "c1",
+            "questions": [
+                {
+                    "q": "Describe your core programming fundamentals in Python or JavaScript.",
+                    "a": "I build my full-stack backends using Python frameworks like FastAPI and Flask because they integrate natively with AI pipelines. For frontends, I write modern clean JavaScript structures, using single-page modular interfaces with rich glassmorphism CSS designs to deliver professional-grade developer aesthetics.",
+                    "score": 98
+                },
+                {
+                    "q": "Explain the Hire &rarr; Train &rarr; Deploy (HTD) model and your global deployment interests.",
+                    "a": "The Hire-Train-Deploy model is highly effective. It allows selected candidates to",
+                    "score": 67
+                },
+                {
+                    "q": "How would you handle a critical production server breakdown in a live API cluster?",
+                    "a": "To troubleshoot a live API cluster",
+                    "score": 45
+                },
+                {
+                    "q": "Why are you the perfect fit for FWC's global AI/ML developer stream?",
+                    "a": "I have built multi-user portals, worked",
+                    "score": 45
+                }
+            ]
+        }
+    ]
+}

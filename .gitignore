@@ -18,3 +18,7 @@ env/
 # Uploads / Static media
 public/uploads/*
 !public/uploads/.gitkeep
+
+# Exclude roadmap document
+ROADMAP.md
+
